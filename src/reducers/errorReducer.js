@@ -1,4 +1,4 @@
-import { IMAGES } from '../contants';
+import { IMAGES } from '../constants';
 
 const errorReducer = (state = null, action) => {
 	switch (action.type) {
