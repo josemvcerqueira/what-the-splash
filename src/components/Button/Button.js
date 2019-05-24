@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles.css';
+import './style.css';
 
 const Button = ({ children, loading = false, ...props }) => (
 	<button className="button" disabled={loading} {...props}>
