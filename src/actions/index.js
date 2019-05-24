@@ -12,7 +12,7 @@ const setError = error => ({
 	error,
 });
 
-const loadImagesStats = id => ({
+const loadImageStats = id => ({
 	type: STATS.LOAD,
 	id,
 });
@@ -32,7 +32,7 @@ export {
 	loadImages,
 	setImages,
 	setError,
-	loadImagesStats,
+	loadImageStats,
 	setImageStats,
 	setImageStatsError,
 };
