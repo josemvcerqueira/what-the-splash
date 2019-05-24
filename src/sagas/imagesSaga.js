@@ -4,9 +4,9 @@ import { IMAGES } from '../constants';
 import { fetchImages } from '../api';
 import { setImages, setError } from '../actions';
 
-const getPage = state => state.nextPage;
+export const getPage = state => state.nextPage;
 
-function* handleImagesLoad() {
+export function* handleImagesLoad() {
 	try {
 		// select effect allows you to grab a slice of the state
 		const page = yield select(getPage);
